@@ -2,6 +2,8 @@
 
 Application that allows a user to order via app and appear on the waiter's screen in real time.
 
+![waiter](https://user-images.githubusercontent.com/63273269/208125081-62c20fdd-60a5-42a0-8cb3-95651f66bc40.PNG)
+
 ## 📱 The main features implemented in the app:
 
 * Place an order via APP
