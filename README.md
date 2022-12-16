@@ -1,6 +1,6 @@
 # Waiterapp
 
-Aplicação que permite que um usuário faça pedido via app e apareça na tela do garçom em tempo real.
+Application that allows a user to order via app and appear on the waiter's screen in real time.
 
 ## 📱 The main features implemented in the app:
 
