@@ -1,7 +1,7 @@
 # 📱 The main features implemented in the app:
 
-• Place an order via APP
-• Navigate between product tab
+ Place an order via APP
+ Navigate between product tab
 • Filter type of food
 • Inform the number of the table where the order is taking place
 • Function to add products to the cart
