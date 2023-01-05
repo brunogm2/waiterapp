@@ -1,3 +1,4 @@
+import { ActivityIndicator } from 'react-native';
 import { Text } from '../Text';
 import { Contaier } from './styles';
 
@@ -5,12 +6,19 @@ interface ButtonProps {
     onPress: () => void;
     children: string;
     disabled?: boolean;
+    loading?: boolean;
 }
 
-export function Button({ onPress, children, disabled }: ButtonProps) {
+export function Button({ onPress, children, disabled, loading }: ButtonProps) {
   return(
     <Contaier onPress={onPress} disabled={disabled}>
-      <Text weight="600" color="#fff">{children}</Text>
+      {!loading && (
+        <Text weight="600" color="#fff">{children}</Text>
+      )}
+
+      {loading && (
+        <ActivityIndicator />
+      )}
     </Contaier>
   );
 }
